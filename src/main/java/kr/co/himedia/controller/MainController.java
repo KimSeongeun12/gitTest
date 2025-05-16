@@ -14,6 +14,7 @@ public class MainController {
 	public String main() {
 		logger.info("Hello KimSeongeun");
 		logger.info("아무거나 추가!!!");
+		logger.info("브런치 초기화: 특정한 커밋의 상태로 완전히 되돌려버리는 것");
 		return "{\"msg\":\"Ok\"}";
 	}
 	
